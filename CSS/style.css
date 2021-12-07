@@ -328,3 +328,8 @@ header nav ul {
     padding: 50px 50px;
 
 }
+
+.conteiner-footer {
+    background-color:black;
+    width: 200px;
+}
