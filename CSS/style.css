@@ -18,7 +18,7 @@ html {
 }
 
 .conteiner {
-    width: 80%;
+    width: 100%;
     margin: auto;
     max-width: 1180px;
     
@@ -79,12 +79,14 @@ header nav ul {
 
 #jumbotron {
     background-color: rgb(145, 191, 240);
-    min-height: 500px;
-    width: 80%;
+    height: 650px;
+    width: 100%;
     margin: auto;
 }
 
 #title-center {
+    margin-left: 100px;
+    width: 80%;
     text-align:left;
     font-size: 35px;
     display: inline-block;
@@ -92,15 +94,17 @@ header nav ul {
 }
 
 #text-left {
+    margin-left: 100px;
     width: 30%;
+    margin-top: 30px;
     float: left;
-    margin-top: 50px;
 }
 
 #img-jum {
-    width: 70%;
-    margin-top: 50px;
-    float: right;
+    height: 300px;
+    width: 60%;
+    margin-top: 30px;
+    float:left;
     background-size: contain;
     padding: left 0px;
 }
@@ -126,3 +130,94 @@ header nav ul {
     margin-top: 15px;
     font-size: 15px;
 }
+
+#plans {
+    width: 80%;
+    margin: auto;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#plans {
+    margin-top: 100px;
+}
+
+.col {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+}
+
+.col-center {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float:left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.col-rigth {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float:right;
+    margin-top: 30px;
+}
+
+
+
+.plans-enterprise {
+    margin-top: 50px;
+    height: 130px;
+    width: 100%;
+    border: solid 1px black;
+}
+/*
+#title {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#price {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.col p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+
+.col a {
+    margin-top: 20px;
+}
+
+#btn-col {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.col-center p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.col-rigth p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.col a {
+    margin-top: 20px;
+}
+*/
