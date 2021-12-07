@@ -156,7 +156,7 @@ header nav ul {
     border: solid 1px rgb(173, 165, 165);
     width: 30%;
     float:left;
-    margin-left: 50px;
+    margin: 0 5%;
     margin-top: 30px;
 }
 
@@ -221,3 +221,67 @@ header nav ul {
     margin-top: 20px;
 }
 */
+
+/*partner*/
+.row {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.conteiner-partner {
+    margin-top: 100px;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+
+}
+
+.card-left {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.card-rigth {
+    border: solid 1px black;
+    float: left;
+    width: 40%;
+    height: 300px;
+    margin-left: 30px;
+}
+.card-left img {
+    margin-left: 80px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/*business*/
+
+.business {
+    margin-top: 100px;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.col-1 {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float: left;
+    height: 200px;
+}
+
+.col-2 {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float:left;
+    margin: 0 5%;
+    height: 200px;
+}
+
+.col-3 {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float:right;
+    height: 200px;
+}
