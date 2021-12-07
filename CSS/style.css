@@ -285,3 +285,34 @@ header nav ul {
     float:right;
     height: 200px;
 }
+
+/*clienti*/
+
+#clienti {
+    margin-top: 50px;
+}
+
+.col-4 {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float: left;
+    height:30vw;
+    margin-top: 100px;
+}
+
+.col-5 {
+    border: solid 1px rgb(173, 165, 165);
+    width: 40%;
+    float: left;
+    height: 200px;
+    width: calc(100%-60%);
+    margin-top: 100px;
+}
+
+.col-6 {
+    border: solid 1px rgb(173, 165, 165);
+    width: 30%;
+    float: left;
+    height: 30vw;
+    margin-top: 100px;
+}
