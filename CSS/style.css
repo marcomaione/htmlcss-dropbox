@@ -253,12 +253,10 @@ header nav ul li a {
 /*business*/
 
 .conteiner3 {
+    height: 500px;
     width: 60%;
     margin: auto;
     margin-top: -100px;
-}
-.row {
-    height: 200px;
 }
 
 .col-1 {
@@ -278,21 +276,27 @@ header nav ul li a {
     float: right;
     margin-top: 30px;
 }
-.row .col-1 img{
+.col-1 img{
     max-width: 200px;
     max-height: 200px;
     margin-left: 10px;
 }
 
-.row .col-2 img{
+.col-2 img{
     max-width: 200px;
     max-height: 200px;
     margin-left: 10px;
 }
 
-.row .col-3 img{
+.col-3 img{
     max-width: 200px;
     max-height: 200px;
     margin-left: 10px;
 }
+.conteiner4 {
+    height: 500px;
+    width: 60%;
+    margin: auto;
+}
+
 
