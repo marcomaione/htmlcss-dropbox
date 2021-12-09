@@ -1,335 +1,254 @@
-/*generali*/
-
+/*
 html {
-    font-family: ;
+    font-family:'Roboto', sans-serif;
 }
-
-*{
+*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.conteiner::after {
+
+/*header*/
+
+header::after {
     content: "";
     display: table;
     clear: both;
-
 }
 
-.conteiner {
-    width: 100%;
-    margin: auto;
-    max-width: 1180px;
-    
-}
-
-.bottone {
-    background-color: blue;
-    color:white;
-    text-decoration: none;
-    padding: 2px 10px;
-}
-
-/*debug*/
-
-.debug {
-    height: 500px;
-}
-
-.debug .conteiner {
-    border: solid 1px black;
-    width: 80%;
-}
-
-/*header*/
 header {
+    width: 100%;
     height: 50px;
-    line-height: 100px;
-    margin-bottom: 40px
 }
 
-#logo {
-    float: left;
-    width: 10%;
-}
-
-#logo img {
-    vertical-align: middle;
-}
-
-
-header nav {
-    float: left;
+#left {
     width: 40%;
+    height: 50px;
+    float:left ;
+    padding: 10px 5px;
 }
 
-header nav ul {
-    text-align: center;
+#right {
+    width: 35%;
+    height: 50px;
+    float:right ;
+    padding: 10px 5px;
 }
 
- header nav ul li {
+header nav ul li {
     display: inline-block;
-    text-decoration: none;
-    margin: 0px 15px;
     color: black;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 0px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
 }
 
 /*jumbotron*/
 
-#jumbotron {
-    background-color: rgb(145, 191, 240);
-    height: 650px;
-    width: 100%;
-    margin: auto;
-}
-
-#title-center {
-    margin-left: 100px;
-    width: 80%;
-    text-align:left;
-    font-size: 35px;
-    display: inline-block;
-    margin-top: 40px;
-}
-
-#text-left {
-    margin-left: 100px;
-    width: 30%;
-    margin-top: 30px;
-    float: left;
-}
-
-#img-jum {
-    height: 300px;
-    width: 60%;
-    margin-top: 30px;
-    float:left;
-    background-size: contain;
-    padding: left 0px;
-}
-
-#img-jum img {
-    max-width: 700px;
-    max-height: 700px;
-}
-
-#btn {
-    margin-top: 30px;
-}
-
-.bottone-big {
-    height: 300px;
-    background-color: blue;
-    color:white;
-    text-decoration: none;
-    padding: 2px 10px;
-}
-
-#text {
-    margin-top: 15px;
-    font-size: 15px;
-}
-
-#plans {
-    width: 80%;
-    margin: auto;
-}
-.row::after {
+#jumbotron::after {
     content: "";
     display: table;
     clear: both;
 }
 
-#plans {
+#jumbotron {
+    background-color: rgb(168, 213, 250);
+    width: 100%;
+    height: 500px;
+}
+
+.conteiner {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+
+}
+
+#title {
+    height: 100px;
+    margin: auto;
+}
+
+#title h1 {
+    font-size: 65px;
+    text-align: left;
+    padding: 40px 0;
+}
+
+.left {
+    width: 40%;
+    height: 300px;
+    float: left;
     margin-top: 100px;
 }
 
-.col {
-    border: solid 1px rgb(173, 165, 165);
+#p-left {
+    padding:30px 0 ;
+    font-size: 20px;
+}
+
+.right {
+    width: 60%;
+    height: 300px;
+    float: left;
+    margin-top: 100px;
+}
+
+.right img {
+    max-width: 600px;
+    max-height: 700px;
+    padding: 30px 0px;
+}
+
+/*plans*/
+
+
+
+#title2 {
+    height: 100px;
+    margin: auto;
+    padding: 30px 0;
+    font-size:20px;
+}
+
+.conteiner2 {
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.conteiner2 #title2 span {
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.conteiner2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-l {
+    border: solid 1px black;
     width: 30%;
+    height: 700px;
     float: left;
     margin-top: 30px;
 }
 
 .col-center {
-    border: solid 1px rgb(173, 165, 165);
-    width: 30%;
-    float:left;
-    margin: 0 5%;
-    margin-top: 30px;
-}
-
-.col-rigth {
-    border: solid 1px rgb(173, 165, 165);
-    width: 30%;
-    float:right;
-    margin-top: 30px;
-}
-
-
-
-.plans-enterprise {
-    margin-top: 50px;
-    height: 130px;
-    width: 100%;
     border: solid 1px black;
-}
-/*
-#title {
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-#price {
-    margin-left: 10px;
-    margin-top: 20px;
+    width: 30%;
+    height: 700px;
+    float: left;
+    margin:30px 5%;
 }
 
-.col p {
-    font-size: 15px;
-    margin-left: 10px;
-    margin-top: 20px;
-
-}
-
-
-.col a {
-    margin-top: 20px;
-}
-
-#btn-col {
+.col-r {
+    border: solid 1px black;
+    width: 30%;
+    height: 700px;
+    float: right;
     margin-top: 30px;
-    margin-left: 10px;
 }
 
-.col-center p {
+.pacchetto {
+    text-align: center;
+    padding: 10px 0px;
+}
+.text {
+    padding: 10px 10px;
     font-size: 15px;
+
+}
+.text-up {
+    padding: 10px 10px;
+}
+
+.btn-col {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
     margin-left: 10px;
-    margin-top: 20px;
-
 }
 
-.col-rigth p {
-    font-size: 15px;
-    margin-left: 10px;
-    margin-top: 20px;
 
+.conteiner2 nav ul li {
+    padding: 10px 10px;
+    list-style: none;
+}
+.enterprise {
+    border: solid 1px black;
+    width: 60%;
+    height: 160px;
+    margin: auto;
+    margin-top: 350px;
 }
 
-.col a {
+.btn-r {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding:5px 10px;
     margin-top: 20px;
+    text-decoration: none;
+    margin-left: 450px;
+
 }
-*/
 
 /*partner*/
-.row {
-    width: 100%;
-    margin-top: 100px;
-}
 
-.conteiner-partner {
-    margin-top: 100px;
-    width: 80%;
-    height: 400px;
-    margin: auto;
-
-}
-
-.card-left {
-    float: left;
-    width: 50%;
-    height: 300px;
-}
-
-.card-rigth {
-    border: solid 1px black;
-    float: left;
+.left1 {
     width: 40%;
     height: 300px;
-    margin-left: 30px;
+    float: left;
 }
-.card-left img {
-    margin-left: 80px;
+
+.left1 img {
     max-width: 400px;
     max-height: 400px;
+
 }
 
-/*business*/
-
-.business {
-    margin-top: 100px;
-    width: 80%;
-    height: 400px;
-    margin: auto;
-}
-
-.col-1 {
-    border: solid 1px rgb(173, 165, 165);
-    width: 30%;
-    float: left;
-    height: 200px;
-}
-
-.col-2 {
-    border: solid 1px rgb(173, 165, 165);
-    width: 30%;
-    float:left;
-    margin: 0 5%;
-    height: 200px;
-}
-
-.col-3 {
-    border: solid 1px rgb(173, 165, 165);
-    width: 30%;
-    float:right;
-    height: 200px;
-}
-
-/*clienti*/
-
-#clienti {
-    margin-top: 50px;
-}
-
-.col-4 {
-    border: solid 1px rgb(173, 165, 165);
-    width: 30%;
-    float: left;
-    height:30vw;
-    margin-top: 100px;
-}
-
-.col-5 {
-    border: solid 1px rgb(173, 165, 165);
+.right1 {
     width: 40%;
-    float: left;
-    height:30vw;
-    width: calc(100%-60%);
-    margin-top: 100px;
+    height: 300px;
+    float:right;
 }
 
-.col-6 {
-    border: solid 1px rgb(173, 165, 165);
-    width: 30%;
-    float: left;
-    height: 30vw;
-    margin-top: 100px;
+.right1 h3 {
+    padding: 20px 0px;
 }
 
-.item {
-    width: 25%;
-    
+.right1 p {
+    padding: 20px 0px;
 }
 
-.item img {
-    max-width: 200px;
-    max-height: 200px;
-    padding: 50px 50px;
-
-}
-
-.conteiner-footer {
-    background-color:black;
-    width: 200px;
+.btn-w {
+    border: solid 1px black;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
 }
