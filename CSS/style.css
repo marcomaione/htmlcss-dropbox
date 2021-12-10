@@ -92,7 +92,7 @@ header nav ul li a {
 #title h1 {
     font-size: 65px;
     text-align: left;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .left {
@@ -341,11 +341,26 @@ header nav ul li a {
      color: blue;
  }
 
+
+
  .card-l {
     border: solid 1px black;
     width: 30%;
     float: left;
     height: 300px;
+ }
+ #griglia li {
+    margin-top: 0px;
+    display: inline-block;
+    width: 185px;
+    height: 150px;
+    background-color: #abe2ff;
+    }
+
+ .card-l ul li img {
+    max-width: 100px;
+    max-height: 100px;
+
  }
 
  .card-center {
