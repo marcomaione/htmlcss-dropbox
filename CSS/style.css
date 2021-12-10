@@ -252,6 +252,18 @@ header nav ul li a {
 
 /*business*/
 
+.conteiner3::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.conteiner4::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .conteiner3 {
     height: 500px;
     width: 60%;
@@ -298,5 +310,72 @@ header nav ul li a {
     width: 60%;
     margin: auto;
 }
+ /*team*/
 
 
+ .conteiner5::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.conteiner5 {
+    border: solid 1px black;
+    height: 500px;
+    margin-top: -300px;
+}
+
+ #title3 {
+     width: 50%;
+
+ }
+
+ #title3 h2 {
+     font-size: 30px;
+     padding: 20px 0px;
+ }
+
+ #title3 a {
+     color: blue;
+ }
+
+ .card-l {
+    border: solid 1px black;
+    width: 30%;
+    float: left;
+    height: 300px;
+ }
+
+ .card-center {
+    border: solid 1px black;
+    width: 40%;
+    float: left;
+    height: 300px;
+ }
+
+ .card-center img {
+     max-width: 100px;
+     max-height: 100px;
+     margin-top: 30px;
+     margin-left: 30px;
+ }
+
+ .card-center p {
+     padding: 30px 30px;
+ }
+
+ .card-r {
+    border: solid 1px black;
+    width: 30%;
+    float: left;
+    height: 300px;
+ }
+
+ .bottom {
+    border: solid 1px black;
+    width: 100%;
+    height: 300px;
+    margin-top: -200px;
+    background-color: rgb(168, 213, 250);
+
+ }
