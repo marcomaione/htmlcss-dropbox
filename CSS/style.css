@@ -55,6 +55,11 @@ header nav ul li a {
 
 }
 
+ header nav ul li:hover {
+    border-bottom: solid 2px black;
+}
+
+
 .btn {
     display: inline-block;
     background-color: blue;
@@ -121,6 +126,18 @@ header nav ul li a {
 }
 
 /*plans*/
+
+.far {
+    margin-right: 10px;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+.fa-check {
+    color: blue;
+}
 
 
 
@@ -427,6 +444,10 @@ header nav ul li a {
  }
 
  /*FAQ*/
+
+ .fa-chevron-down {
+     margin-left: 180px;
+ }
 
  .conteiner6 {
      width: 60%;
